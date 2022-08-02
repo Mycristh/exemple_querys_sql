@@ -26,6 +26,6 @@ idade int
 )
 
 --importando dados
-copy books(isbn, title, author, publication, publisher, imgurls, imgurlm, imgurll) from 'C:\Users\mycri\Desktop\docs\books.csv' delimiter ';' csv header NULL 'NULL' ENCODING 'LATIN1';
-copy ratings(user_id, isbn, book_rating) from 'C:\Users\mycri\Desktop\docs\ratings.csv' delimiter ';' csv header NULL 'NULL' ENCODING 'LATIN1';
-copy users(user_id, local, idade) from 'C:\Users\mycri\Desktop\docs\users.csv' delimiter ';' csv header NULL 'NULL' ENCODING 'LATIN1';
+copy silver.books(isbn, title, author, publication, publisher, imgurls, imgurlm, imgurll) from 'C:\Users\mycri\Desktop\docs\books.csv' delimiter ';' csv header NULL 'NULL' ENCODING 'LATIN1';
+copy silver.ratings(user_id, isbn, book_rating) from 'C:\Users\mycri\Desktop\docs\ratings.csv' delimiter ';' csv header NULL 'NULL' ENCODING 'LATIN1';
+copy silver.users(user_id, local, idade) from 'C:\Users\mycri\Desktop\docs\users.csv' delimiter ';' csv header NULL 'NULL' ENCODING 'LATIN1';
